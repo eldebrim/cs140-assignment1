@@ -5,6 +5,11 @@ struct Builder {
     number: Option<usize>,
 }
 
+impl Builder {
+    fn default(&mut self) -> {
+        self.0
+    }
+}
 // Do not modify this function.
 fn main() {
     let empty = Builder::default().to_string();
